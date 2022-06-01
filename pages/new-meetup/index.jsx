@@ -3,7 +3,7 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import NewMeetupForm from '../../components/meetups/NewMeetupForm'
 
-const index = () => {
+const NewMeetup = () => {
     const router = useRouter()
 
     async function addMeetupHandler(meetupDetails) {
@@ -38,4 +38,4 @@ const index = () => {
     )
 }
 
-export default index
+export default NewMeetup
