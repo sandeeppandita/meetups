@@ -1,0 +1,33 @@
+.form {
+    border: 1px solid #ddd;
+    background-color: #fdfdfd;
+    box-shadow: 0 3px 5px -6px #000;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.form_field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form_field > label {
+    margin-bottom: 5px;
+}
+
+.form_field > input,
+.form_field > textarea {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.form_btn {
+    border: 1px solid #9256f3;
+    padding: 10px 10px;
+    border-radius: 4px;
+    background-color: #9256f3;
+    color: #fff;
+    font-size: 16px;
+}

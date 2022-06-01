@@ -1,0 +1,26 @@
+.tile {
+    border: 1px solid #ddd;
+    background-color: #fdfdfd;
+    margin-bottom: 16px;
+    box-shadow: 0 3px 5px -6px #000;
+    border-radius: 8px;
+    padding-bottom: 15px;
+    overflow: hidden;
+}
+.tile_title {
+    margin: 15px 10px 5px 10px;
+}
+.tile_address {
+    font-style: italic;
+    margin-left: 10px;
+}
+.tile_btn {
+    border: 1px solid #9256f3;
+    padding: 6px 10px;
+    border-radius: 4px;
+    background-color: #9256f3;
+    color: #fff;
+    font-size: 16px;
+    margin: 15px 0 0 10px;
+    cursor: pointer;
+}

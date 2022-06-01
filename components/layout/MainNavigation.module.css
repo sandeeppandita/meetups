@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #9256f3;
+    box-shadow: 0 3px 5px -6px #000;
+    color: #fff;
+    padding: 0 5%;
+}
+
+.header_menu {
+    display: flex;
+}
+
+.header_menuItem {
+    list-style-type: none;
+}
+.header_menuItem > a {
+    padding: 16px;
+    text-decoration: underline;
+    display: block;
+}
