@@ -1,5 +1,11 @@
 .mainBody {
-    width: 60%;
+    width: 600px;
     margin: 0 auto;
     margin-top: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+    .mainBody {
+        width: 80%;
+    }
 }

@@ -5,7 +5,9 @@ import styles from './MainNavigation.module.css'
 const MainNavigation = () => {
     return (
         <div className={styles.header}>
-            <h3>Gupshup Meetups</h3>
+            <Link href="/">
+                <h3 className={styles.header_logo}>Gupshup Meetups</h3>
+            </Link>
 
             <ul className={styles.header_menu}>
                 <li className={styles.header_menuItem}>
